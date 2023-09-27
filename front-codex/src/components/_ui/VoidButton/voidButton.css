@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.void-button {
+    background-color: transparent;
+    border-radius: 2px;
+    border: 2px solid var(--gradient, #FF02A9);
+    color: white;
+    cursor: pointer;
+    font-family: Poppins;
+    font-size: 20px;
+}

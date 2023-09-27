@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.pink-button {
+    border: none;
+    border-radius: 2px;
+    background: var(
+        --gradient,
+        linear-gradient(90deg, #ff02a9 2.78%, #de0e4c 96.26%)
+    );
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    cursor: pointer;
+}
