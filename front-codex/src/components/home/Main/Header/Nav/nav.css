@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bar {
+    background-color: #FF4370;
+    width: 2px;
+    height: 12px;
+    align-self: center;
+}

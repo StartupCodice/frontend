@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.burgerBar {
+    width: 100%;
+    background-color: #FF4370;
+    height: 2px;
+    align-self: center;
+
+}
+
