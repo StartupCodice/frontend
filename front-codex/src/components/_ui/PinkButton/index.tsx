@@ -2,16 +2,18 @@ import './pinkButton.css';
 
 export default function PinkButton(props: {
     phrase: string;
-    widht?: string;
+    width?: string;
     height?: string;
+    fontSize?: string;
 }) {
     const size = {
-        width: props.widht,
-        height: props.height
+        width: props.width,
+        height: props.height,
+        fontSize: props.fontSize
     };
 
     return (
-        <button className="pink-button" style={size}>
+        <button className="pink-button hover:" style={size}>
             {props.phrase}
         </button>
     );
