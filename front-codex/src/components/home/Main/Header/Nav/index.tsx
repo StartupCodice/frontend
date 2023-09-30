@@ -1,12 +1,12 @@
 import PinkButton from '@/components/_ui/PinkButton';
 import './nav.css';
 
-function NavPrhase(props: { phrase: string }) {
+function NavPrhase(props: { phrase: string; href: string }) {
     return (
         <>
             <li>
                 <a
-                    href="/"
+                    href={props.href}
                     className="text-white text-lg font-medium hover:text-pink-400 transition duration-300"
                 >
                     {props.phrase}
@@ -19,12 +19,12 @@ function NavPrhase(props: { phrase: string }) {
 
 export default function Nav() {
     return (
-        <nav className="max-[900px]:hidden flex justify-between items-center py-10 px-20">
+        <nav className="xl:flex hidden justify-between items-center py-10 px-32">
             <ul className="flex space-x-4">
-                <NavPrhase phrase="Início"></NavPrhase>
-                <NavPrhase phrase="Sobre"></NavPrhase>
-                <NavPrhase phrase="Projetos"></NavPrhase>
-                <NavPrhase phrase="Avaliação"></NavPrhase>
+                <NavPrhase href="#" phrase="Início"></NavPrhase>
+                <NavPrhase href="#sobre" phrase="Sobre"></NavPrhase>
+                <NavPrhase href="projetos" phrase="Projetos"></NavPrhase>
+                <NavPrhase href="avaliacoes" phrase="Avaliações"></NavPrhase>
             </ul>
             <ul className="flex space-x-8 items-center">
                 <li>

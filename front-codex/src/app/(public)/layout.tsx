@@ -2,7 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Home Page - Codex',
+    title: 'Home Page - Codice',
     description: ''
 };
 

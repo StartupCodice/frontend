@@ -5,10 +5,25 @@
 }
 
 .burgerBar {
-    width: 100%;
+    width: 80%;
     background-color: #FF4370;
     height: 2px;
-    align-self: center;
+}
 
+/* Add styles for the mobile menu */
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    right: -100%; /* Hide the menu off-screen initially */
+    width: 50%; /* Adjust the width as needed */
+    height: 100%;
+    background-color: #151515; /* Background color for the menu */
+    opacity: 0.95;
+    z-index: 999; /* Make sure it's above other content */
+    transition: right 0.3s ease-in-out; /* Add animation */
+}
+
+.mobile-nav.open {
+    right: 0; /* Show the menu when it's open */
 }
 

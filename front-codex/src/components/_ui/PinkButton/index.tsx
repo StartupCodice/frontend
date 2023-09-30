@@ -13,7 +13,7 @@ export default function PinkButton(props: {
     };
 
     return (
-        <button className="pink-button hover:" style={size}>
+        <button className="pink-button select-none" style={size}>
             {props.phrase}
         </button>
     );
