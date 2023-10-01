@@ -7,12 +7,12 @@ function NavPrhase(props: { phrase: string; href: string }) {
             <li>
                 <a
                     href={props.href}
-                    className="text-white text-lg font-medium hover:text-pink-400 transition duration-300"
+                    className="text-white text-lg font-medium hover:text-pink-400 transition duration-300 font-poppins"
                 >
                     {props.phrase}
                 </a>
             </li>
-            <div className="bar"></div>
+            <div className="bar self-center w-[2px] h-[12px]"></div>
         </>
     );
 }

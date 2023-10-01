@@ -1,29 +1,7 @@
 body {
     background-image: url('../../../../public/images/main_backgroud.svg');
-    overflow-x: hidden;
 }
 
-h1 {
-    font-weight: 700;
-    font-family: 'IBM Plex Mono', monospace;
-    line-height: 105%;
-    letter-spacing: 0.832px;
-}
-
-p {
-    font-weight: 400;
-    font-family: 'Poppins', sans-serif;
-}
-
-.void-button {
-    background-color: transparent;
-    border-radius: 2px;
+.gradient-border {
     border: 2px solid var(--gradient, #FF02A9);
-    color: white;
-    cursor: pointer;
-    font-family: Poppins;
-    font-weight: 700;
-    font-size: 20px;
-    width: 200px;
-    height: 56px;
 }

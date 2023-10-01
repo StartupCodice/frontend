@@ -1,15 +1,8 @@
 .pink-button {
-    border: none;
-    border-radius: 2px;
     background: var(
         --gradient,
         linear-gradient(90deg, #ff02a9 2.78%, #de0e4c 96.26%)
     );
-    color: white;
-    font-family: Poppins;
-    font-size: 20px;
-    font-weight: 600;
-    cursor: pointer;
     transition: background-color 0.3s ease-in-out
 }
 

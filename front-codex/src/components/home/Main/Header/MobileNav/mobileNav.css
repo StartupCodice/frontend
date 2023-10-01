@@ -1,29 +1,21 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
 .burgerBar {
     width: 80%;
-    background-color: #FF4370;
+    background-color: #ff4370;
     height: 2px;
 }
 
-/* Add styles for the mobile menu */
 .mobile-nav {
     position: fixed;
     top: 0;
-    right: -100%; /* Hide the menu off-screen initially */
-    width: 50%; /* Adjust the width as needed */
+    right: -100%;
+    width: 50%;
     height: 100%;
-    background-color: #151515; /* Background color for the menu */
+    background-color: #151515;
     opacity: 0.95;
-    z-index: 999; /* Make sure it's above other content */
-    transition: right 0.3s ease-in-out; /* Add animation */
+    z-index: 999;
+    transition: right 0.3s ease-in-out;
 }
 
 .mobile-nav.open {
-    right: 0; /* Show the menu when it's open */
+    right: 0;
 }
-
