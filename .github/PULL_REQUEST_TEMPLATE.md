@@ -4,4 +4,4 @@
 
 ## How (como foi aplicada)
 
-## Imagem (opcional)
+## Imagem (opcional) 
