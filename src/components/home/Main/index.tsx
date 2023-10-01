@@ -9,13 +9,13 @@ export default function Main() {
         <div>
             <Header />
             <div className="px-4 xl:px-32 xl:text-left text-center xl:flex-col flex-row xl:py-5">
-                <div className="flex xl:flex-row flex-col justify-between xl:w-screen">
-                    <div className="flex flex-col justify-center">
-                        <h1 className="text-white text-4xl xl:text-6xl font-bold leading-tight tracking-wider font-ibm">
+                <div className="flex xl:flex-row flex-col justify-between xl:w-screen ">
+                    <div className="flex flex-col justify-center ">
+                        <h1 className="text-white text-4xl xl:text-6xl font-bold leading-tight tracking-wider font-ibm backdrop-blur p-2">
                             Impulsione
                             <br /> Seus Negócios
                         </h1>
-                        <p className="text-lg xl:text-3xl font-normal text-gray-500 mt-4 font-poppins">
+                        <p className="text-lg xl:text-3xl font-normal text-gray-500 mt-4 font-poppins backdrop-blur">
                             Com nossa plataforma intuitiva e<br /> recursos
                             poderosos, você pode
                             <br /> dar vida às suas ideias em poucos
@@ -38,7 +38,7 @@ export default function Main() {
                                 fontSize="20px"
                             />
                             <a
-                                className="gradient-border flex items-center justify-center text-white text-xl font-bold font-poppins rounded-sm w-[200px] h-[56px]"
+                                className="gradient-border flex items-center justify-center text-white text-xl font-bold font-poppins rounded-sm w-[200px] h-[56px] backdrop-blur"
                                 href="#como-funciona"
                             >
                                 Saiba Mais

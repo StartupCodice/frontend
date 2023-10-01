@@ -14,7 +14,7 @@ function TextWithImage(props: {
                 props.reverse ? 'xl:flex-row-reverse' : 'xl:flex-row'
             } flex flex-col items-center justify-around xl:gap-x-96 xl:mt-28 mt-14 gap-10`}
         >
-            <div>
+            <div className="backdrop-blur p-2 rounded-xl">
                 <div className="flex-row">
                     <h1
                         className="text-white text-2xl xl:text-6xl font-bold leading-tight tracking-wider font-ibm"
