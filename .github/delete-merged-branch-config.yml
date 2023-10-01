@@ -1,4 +1,0 @@
-exclude: 
-  - develop
-  - main
-delete_closed_pr: true
