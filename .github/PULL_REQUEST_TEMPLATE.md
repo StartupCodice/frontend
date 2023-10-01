@@ -1,7 +1,7 @@
-## What (o que foi feito nessa branch)
+## What (O que foi feito?)
 
-## Why (qual feature foi aplicada)
+## Why (Por que foi feito?)
 
-## How (como foi aplicada)
+## How (Como foi feito?)
 
 ## Imagem (opcional) 
