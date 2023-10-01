@@ -1,0 +1,7 @@
+body {
+    background-image: url('../../../../public/images/main_backgroud.svg');
+}
+
+.gradient-border {
+    border: 2px solid var(--gradient, #FF02A9);
+}

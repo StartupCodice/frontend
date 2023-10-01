@@ -1,0 +1,13 @@
+.pink-button {
+    background: var(
+        --gradient,
+        linear-gradient(90deg, #ff02a9 2.78%, #de0e4c 96.26%)
+    );
+    transition: background-color 0.3s ease-in-out
+}
+
+.pink-button:hover {
+    background-image: var(
+        --gradient,
+        linear-gradient(90deg, #ff027a 2.78%, #de0e4c 96.26%))
+}
