@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import './about.css';
+import MiniBar from '@/components/_ui/MiniBar';
 
 function TextWithImage(props: {
     title: string;
@@ -12,7 +12,7 @@ function TextWithImage(props: {
         <div
             className={`${
                 props.reverse ? 'xl:flex-row-reverse' : 'xl:flex-row'
-            } flex flex-col items-center justify-around xl:gap-x-96 xl:mt-28 mt-14 gap-10`}
+            } flex flex-col items-center justify-around xl:gap-x-28 xl:mt-28 mt-14 gap-10`}
         >
             <div className="backdrop-blur p-2 rounded-xl">
                 <div className="flex-row">
@@ -20,7 +20,7 @@ function TextWithImage(props: {
                         className="text-white text-2xl xl:text-6xl font-bold leading-tight tracking-wider font-ibm"
                         dangerouslySetInnerHTML={{ __html: props.title }}
                     />
-                    <div className="bar w-[27px] h-[2px]"></div>
+                    <MiniBar />
                 </div>
                 <p
                     className="text-lg xl:text-3xl font-normal text-gray-500 mt-4 font-poppins"
@@ -30,7 +30,7 @@ function TextWithImage(props: {
             <Image
                 className="select-none object-fill h-[200px] w-[200px] xl:h-[400px] xl:w-[400px]"
                 src={props.image}
-                alt=""
+                alt="Illustration"
                 width={400}
                 height={400}
             />
@@ -40,7 +40,7 @@ function TextWithImage(props: {
 
 export default function About() {
     return (
-        <div id="sobre" className="flex flex-col mt-10 xl:mt-0 m-auto xl:px-32">
+        <div id="sobre" className="flex flex-col mt-10 xl:mt-0 xl:px-32">
             <TextWithImage
                 title="Landing Pages<br />de Arrasar"
                 text="Nossa vasta biblioteca de modelos de<br />landing pages é projetada para cativar<br />seu público-alvo desde o primeiro clique.<br />Escolha entre uma variedade de<br /> estilos e temas para criar uma primeira<br />impressão memorável."
