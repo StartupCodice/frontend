@@ -1,4 +1,3 @@
-import MiniBar from '@/components/_ui/MiniBar';
 import PinkButton from '@/components/_ui/PinkButton';
 import Image from 'next/image';
 
@@ -16,13 +15,15 @@ function CreateOwnAboutSet(props: {
                 height={100}
                 className="select-none object-fill"
             />
-            <h1 className="text-white text-center font-bold font-ibm text-3xl xl:text-4xl leading-tight tracking-wider">
-                {props.title}
-            </h1>
-            <p
-                className="text-gray-500 text-center text-xl xl:text-2xl font-normal font-poppins max-w-[380px] max-h-[180px]"
-                dangerouslySetInnerHTML={{ __html: props.text }}
-            />
+            <div className="max-w-[380px] max-h-[200px]">
+                <h1 className="text-white text-center font-bold font-ibm text-3xl xl:text-4xl leading-tight tracking-wider">
+                    {props.title}
+                </h1>
+                <p
+                    className="text-gray-500 text-center text-xl xl:text-2xl font-normal font-poppins"
+                    dangerouslySetInnerHTML={{ __html: props.text }}
+                />
+            </div>
         </div>
     );
 }
@@ -34,9 +35,6 @@ export default function CreateOwn() {
                 <h1 className="text-white font-bold text-4xl xl:text-6xl leading-tight tracking-wider text-center font-ibm">
                     Você mesmo constrói!
                 </h1>
-                <div className="flex items-center justify-end">
-                    <MiniBar />
-                </div>
             </div>
             <div className="flex xl:flex-row flex-col items-center justify-center xl:gap-x-40 mt-16 xl:gap-y-0 gap-y-14">
                 <CreateOwnAboutSet
