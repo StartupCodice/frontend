@@ -19,7 +19,7 @@ function CreateOwnAboutSet(props: {
                 {props.title}
             </h1>
             <p
-                className="text-gray-500 text-justify text-xl xl:text-2xl font-normal font-poppins w-[280px] w-max[380px]"
+                className="text-gray-500 text-justify text-xl xl:text-2xl font-normal font-poppins w-[280px] w-max[380px] h-[290px] overflow-hidden"
                 dangerouslySetInnerHTML={{ __html: props.text }}
             />
         </div>
