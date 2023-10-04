@@ -15,15 +15,13 @@ function CreateOwnAboutSet(props: {
                 height={100}
                 className="select-none object-fill"
             />
-            <div className="max-w-[380px] max-h-[200px]">
-                <h1 className="text-white text-center font-bold font-ibm text-3xl xl:text-4xl leading-tight tracking-wider">
-                    {props.title}
-                </h1>
-                <p
-                    className="text-gray-500 text-center text-xl xl:text-2xl font-normal font-poppins"
-                    dangerouslySetInnerHTML={{ __html: props.text }}
-                />
-            </div>
+            <h1 className="text-white text-center font-bold font-ibm text-3xl xl:text-4xl leading-tight tracking-wider">
+                {props.title}
+            </h1>
+            <p
+                className="text-gray-500 text-justify text-xl xl:text-2xl font-normal font-poppins w-[280px] w-max[380px]"
+                dangerouslySetInnerHTML={{ __html: props.text }}
+            />
         </div>
     );
 }
