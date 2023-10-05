@@ -1,30 +1,5 @@
 import PinkButton from '@/components/_ui/PinkButton';
-import Image from 'next/image';
-
-function CreateOwnAboutSet(props: {
-    title: string;
-    text: string;
-    image: string;
-}) {
-    return (
-        <div className="flex flex-col items-center justify-center gap-y-4 backdrop-blur rounded">
-            <Image
-                src={props.image}
-                alt="Illustration"
-                width={100}
-                height={100}
-                className="select-none object-fill"
-            />
-            <h1 className="text-white text-center font-bold font-ibm text-3xl xl:text-4xl leading-tight tracking-wider">
-                {props.title}
-            </h1>
-            <p
-                className="text-gray-500 text-justify text-xl xl:text-2xl font-normal font-poppins w-[280px] w-max[380px] h-[290px] overflow-hidden"
-                dangerouslySetInnerHTML={{ __html: props.text }}
-            />
-        </div>
-    );
-}
+import CreateOwnAboutSet from './CreateOwnAboutSet';
 
 export default function CreateOwn() {
     return (
@@ -34,7 +9,7 @@ export default function CreateOwn() {
                     Você mesmo constrói!
                 </h1>
             </div>
-            <div className="flex xl:flex-row flex-col items-center justify-center xl:gap-x-40 mt-16 xl:gap-y-0 gap-y-14">
+            <div className="flex xl:flex-row flex-col items-center justify-between mt-16 xl:gap-x-10 xl:gap-y-0 gap-y-14 xl:px-32">
                 <CreateOwnAboutSet
                     image="https://codice-website.s3.sa-east-1.amazonaws.com/images/technology.svg"
                     title="Idealize"
