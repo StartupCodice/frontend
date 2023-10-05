@@ -27,7 +27,7 @@ export default function Main() {
                                 'https://codice-website.s3.sa-east-1.amazonaws.com/images/astronaut.svg'
                             }
                             alt="Desenho de astronauta"
-                            className="select-none object-fill block xl:hidden"
+                            className="select-none object-fill block xl:hidden m-auto mt-4"
                             width={500}
                             height={500}
                         />
