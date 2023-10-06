@@ -3,7 +3,7 @@ import CreateOwnAboutSet from './CreateOwnAboutSet';
 
 export default function CreateOwn() {
     return (
-        <div className="mt-28" id="como-funciona">
+        <div className="m-28" id="como-funciona">
             <div className="flex flex-col text-center">
                 <h1 className="text-white font-bold text-4xl xl:text-6xl leading-tight tracking-wider text-center font-ibm">
                     Você mesmo constrói!

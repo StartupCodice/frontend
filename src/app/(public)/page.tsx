@@ -1,8 +1,9 @@
 import About from '@/components/home/About';
 import Main from '@/components/home/Main';
+import CreateOwn from '@/components/home/CreateOwn';
+import Footer from '@/components/home/Footer';
 
 import './home.css';
-import CreateOwn from '@/components/home/CreateOwn';
 
 export default function Home() {
     return (
@@ -10,7 +11,7 @@ export default function Home() {
             <Main />
             <About />
             <CreateOwn />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 }
