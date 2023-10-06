@@ -24,9 +24,9 @@ export default function Footer() {
             </div>
 
             <div className="bg-[#1d1d1d] w-[90%] h-[2px] mx-auto"></div>
-            <div className="flex flex-row justify-between items-center px-24 py-8">
+            <div className="flex xl:flex-row flex-col xl:justify-between justify-center items-center xl:px-24 px-20 py-8 xl:gap-y-0 gap-y-6">
                 <nav>
-                    <ul className="flex gap-x-7">
+                    <ul className="flex flex-row flex-wrap gap-x-8 justify-center">
                         <NavItem href="#" text="Início" />
                         <NavItem href="#sobre" text="Sobre Nós" />
                         <NavItem href="projetos" text="Projetos" />
