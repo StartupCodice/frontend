@@ -36,7 +36,8 @@ export default function Footer() {
                 <div className="flex flex-row gap-x-7">
                     <a
                         href="https://www.linkedin.com/company/empresacodice/"
-                        rel="_blank"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +61,10 @@ export default function Footer() {
                             </defs>
                         </svg>
                     </a>
-                    <a href="" rel="_blank">
+                    <a  href="#" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="29"
@@ -85,7 +89,8 @@ export default function Footer() {
                     </a>
                     <a
                         href="https://www.facebook.com/EmpresaCODICE/"
-                        rel="_blank"
+                        target="_blank"
+                        rel="noopener noreferrer"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
