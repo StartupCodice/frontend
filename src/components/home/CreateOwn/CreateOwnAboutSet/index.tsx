@@ -14,7 +14,7 @@ export default function CreateOwnAboutSet(props: {
                 height={100}
                 className="select-none object-fill"
             />
-            <div className="flex flex-col max-w-[380px] max-h-[200px] gap-4">
+            <div className="flex flex-col xl:max-w-[380px] xl:max-h-[200px] gap-4">
                 <h1 className="text-white text-center font-bold font-ibm text-3xl xl:text-4xl leading-tight tracking-wider">
                     {props.title}
                 </h1>
