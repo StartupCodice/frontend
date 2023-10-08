@@ -61,7 +61,7 @@ export default function Footer() {
                             </defs>
                         </svg>
                     </a>
-                    <a  href="#" 
+                    <a  href="https://instagram.com/empresacodice?igshid=NGVhN2U2NjQ0Yg==" 
                         target="_blank"
                         rel="noopener noreferrer"
                     >
