@@ -35,7 +35,7 @@ export default function MobileNav() {
         <nav className="xl:hidden flex justify-end items-center py-10 px-4 text-white">
             {!isMenuOpen && (
                 <button
-                    className={'fixed burger-menu-toggle'}
+                    className={'fixed burger-menu-toggle z-50'}
                     onClick={toggleMenu}
                 >
                     <svg

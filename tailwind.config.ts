@@ -11,6 +11,9 @@ const config: Config = {
             fontFamily: {
                 'poppins': ['Poppins', 'sans-serif'],
                 'ibm': ['IBM Plex Mono', 'monospace'],
+            },
+            colors: {
+                'bg': '#151515',
             }
         }
     },
